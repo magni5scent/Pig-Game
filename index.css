@@ -38,8 +38,8 @@ body {
 
 .close-modal {
   position: absolute;
-  top: 1.2rem;
-  right: 2rem;
+  top: .2rem;
+  right: 1.4rem;
   font-size: 4.3rem;
   color: #333;
   cursor: pointer;
@@ -49,8 +49,8 @@ body {
 
 .close-hint {
   position: absolute;
-  top: 1.2rem;
-  right: 2rem;
+  top: .2rem;
+  right: 1.4rem;
   font-size: 4.3rem;
   color: #333;
   cursor: pointer;
@@ -71,10 +71,10 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
+  width: 70%;
 
   background-color: white;
-  padding: 6rem;
+  padding: 4rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -85,10 +85,9 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
-
+  width: 70%;
   background-color: white;
-  padding: 6rem;
+  padding: 3rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -165,7 +164,7 @@ main {
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
-  width: 65%;
+  width: 60%;
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
@@ -226,6 +225,7 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
@@ -269,8 +269,9 @@ main {
   }
 
   .current {
-    width: 80%;
-    padding: 2rem;
+    width: 50%;
+    padding: 1.2rem;
+    
   }
 
   .name {
@@ -280,5 +281,17 @@ main {
   .btn--show {
     top: 50%;
   }
+
+.btn--hint {
+  top: 49rem;
+}
+  
+.btn--hold {
+  top: 43rem;
+}
+
+.btn--roll {
+  top: 36.6rem;
+}
 
 }
